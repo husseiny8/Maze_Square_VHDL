@@ -1,0 +1,203 @@
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xa7a100t-csg324-2I VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xa7a100t-csg324-2I VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xa7a100t-csg324-2I VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx4-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
+xst -intstyle ise -ifn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.xst" -ofn "C:/Users/hussein/Desktop/project/squareeeeeee/VGA_Maze_Square.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc da.ucf -p xc6slx9-tqg144-3 VGA_Maze_Square.ngc VGA_Maze_Square.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o VGA_Maze_Square_map.ncd VGA_Maze_Square.ngd VGA_Maze_Square.pcf 
+par -w -intstyle ise -ol high -mt off VGA_Maze_Square_map.ncd VGA_Maze_Square.ncd VGA_Maze_Square.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml VGA_Maze_Square.twx VGA_Maze_Square.ncd -o VGA_Maze_Square.twr VGA_Maze_Square.pcf -ucf da.ucf 
+bitgen -intstyle ise -f VGA_Maze_Square.ut VGA_Maze_Square.ncd 
